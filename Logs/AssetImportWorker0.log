@@ -7,9 +7,9 @@ Darwin version:          25.0.0
 Architecture:            arm64
 Running under Rosetta:   NO
 Available memory:        32768 MB
-Date:                    2025-10-29T20:22:53Z
+Date:                    2025-10-29T20:34:58Z
 [Licensing::Module] Trying to connect to existing licensing client channel...
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-l6mVCrP0WxDioRn3DNdoZ" at "2025-10-29T20:22:53.360163Z"
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-l6mVCrP0WxDioRn3DNdoZ" at "2025-10-29T20:34:58.776402Z"
 
 COMMAND LINE ARGUMENTS:
 /Applications/Unity/Hub/Editor/6000.2.8f1/Unity.app/Contents/MacOS/Unity
@@ -23,7 +23,7 @@ AssetImportWorker0
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-56046
+58019
 -licensingIpc
 LicenseClient-l6mVCrP0WxDioRn3DNdoZ
 -job-worker-count
@@ -72,7 +72,7 @@ Successfully changed project path to: /Users/tinyux/Desktop/prototype-3-
     "memorysetup-temp-allocator-size-gfx=262144"
 Player connection [8581711872]  Target information:
 
-Player connection [8581711872]  * "[IP] 169.233.248.75 [Port] 0 [Flags] 2 [Guid] 2862177959 [EditorId] 2862177959 [Version] 1048832 [Id] OSXEditor(0,eduroam-169-233-248-75.ucsc.edu) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" 
+Player connection [8581711872]  * "[IP] 169.233.248.75 [Port] 0 [Flags] 2 [Guid] 1860467441 [EditorId] 1860467441 [Version] 1048832 [Id] OSXEditor(0,eduroam-169-233-248-75.ucsc.edu) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" 
 
 Player connection [8581711872] Host joined multi-casting on [225.0.0.222:54997]...
 Player connection [8581711872] Host joined alternative multi-casting on [225.0.0.222:34997]...
@@ -87,7 +87,7 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 1.20 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 2.16 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 6000.2.8f1 (c9992ac36c34)
 [Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/6000.2.8f1/Unity.app/Contents/Resources/UnitySubsystems
@@ -108,56 +108,56 @@ Initialize mono
 Mono path[0] = '/Applications/Unity/Hub/Editor/6000.2.8f1/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/Unity/Hub/Editor/6000.2.8f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
 Mono config path = '/Applications/Unity/Hub/Editor/6000.2.8f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56097
-Begin MonoManager ReloadAssembly
-Registering precompiled unity dll's ...
-Register platform support module: /Applications/Unity/Hub/Editor/6000.2.8f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
-Register platform support module: /Applications/Unity/Hub/Editor/6000.2.8f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Registered in 0.000575 seconds.
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56979
 [Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 43523, path: "/Applications/Unity Hub.app/Contents/Frameworks/UnityLicensingClient_V1.app/Contents/MacOS/Unity.Licensing.Client")
 [Licensing::Module] LicensingClient has failed validation; ignoring
 [Licensing::Client] Handshaking with LicensingClient:
   Version:                 1.17.3+a4e98f1
-  Session Id:              91c9e45b8af047979d3eae66bc06a2d1
+  Session Id:              861db4a80d86413f91f6be64d991efd3
   Correlation Id:          cf57dca2c80cf645d2f2947f6461d146
-  External correlation Id: 3538916300302024271
+  External correlation Id: 7083766511038444900
   Machine Id:              MNUh735EPoZdHcbWblNHRs1auO0=
-[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-l6mVCrP0WxDioRn3DNdoZ" (connect: 0.00s, validation: 0.00s, handshake: 0.61s)
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-l6mVCrP0WxDioRn3DNdoZ-notifications" at "2025-10-29T20:22:53.965853Z"
-[Licensing::Module] Licensing Background thread has ended after 0.61s
-- Loaded All Assemblies, in  0.209 seconds
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-l6mVCrP0WxDioRn3DNdoZ" (connect: 0.00s, validation: 0.00s, handshake: 0.42s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-l6mVCrP0WxDioRn3DNdoZ-notifications" at "2025-10-29T20:34:59.201117Z"
+[Licensing::Module] Licensing Background thread has ended after 0.42s
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/6000.2.8f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/6000.2.8f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.000313 seconds.
+- Loaded All Assemblies, in  0.235 seconds
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.242 seconds
-Domain Reload Profiling: 451ms
-	BeginReloadAssembly (50ms)
+- Finished resetting the current domain, in  0.241 seconds
+Domain Reload Profiling: 476ms
+	BeginReloadAssembly (59ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (0ms)
-	RebuildCommonClasses (23ms)
+	RebuildCommonClasses (27ms)
 	RebuildNativeTypeToScriptingClass (9ms)
-	initialDomainReloadingComplete (25ms)
-	LoadAllAssembliesAndSetupDomain (102ms)
-		LoadAssemblies (49ms)
+	initialDomainReloadingComplete (27ms)
+	LoadAllAssembliesAndSetupDomain (112ms)
+		LoadAssemblies (59ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (100ms)
-			TypeCache.Refresh (99ms)
-				TypeCache.ScanAssembly (90ms)
+		AnalyzeDomain (111ms)
+			TypeCache.Refresh (110ms)
+				TypeCache.ScanAssembly (99ms)
 			BuildScriptInfoCaches (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (242ms)
+	FinalizeReload (241ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (213ms)
+		SetupLoadedEditorAssemblies (211ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (28ms)
+			InitializePlatformSupportModulesInManaged (29ms)
 			SetLoadedEditorAssemblies (3ms)
-			BeforeProcessingInitializeOnLoad (51ms)
-			ProcessInitializeOnLoadAttributes (90ms)
-			ProcessInitializeOnLoadMethodAttributes (42ms)
+			BeforeProcessingInitializeOnLoad (53ms)
+			ProcessInitializeOnLoadAttributes (89ms)
+			ProcessInitializeOnLoadMethodAttributes (38ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -172,8 +172,8 @@ Begin MonoManager ReloadAssembly
   Product: Unity Personal Version
   Type: Assigned
   Expiration: Unlimited
-- Loaded All Assemblies, in  0.360 seconds
-Refreshing native plugins compatible for Editor in 0.28 ms, found 2 plugins.
+- Loaded All Assemblies, in  0.410 seconds
+Refreshing native plugins compatible for Editor in 0.41 ms, found 2 plugins.
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
 Package Manager log level set to [2]
@@ -181,35 +181,35 @@ Package Manager log level set to [2]
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.397 seconds
-Domain Reload Profiling: 758ms
-	BeginReloadAssembly (68ms)
+- Finished resetting the current domain, in  0.461 seconds
+Domain Reload Profiling: 871ms
+	BeginReloadAssembly (79ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (3ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (13ms)
-	RebuildCommonClasses (22ms)
-	RebuildNativeTypeToScriptingClass (8ms)
-	initialDomainReloadingComplete (18ms)
-	LoadAllAssembliesAndSetupDomain (243ms)
-		LoadAssemblies (141ms)
+		CreateAndSetChildDomain (14ms)
+	RebuildCommonClasses (28ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (21ms)
+	LoadAllAssembliesAndSetupDomain (272ms)
+		LoadAssemblies (163ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (130ms)
-			TypeCache.Refresh (101ms)
-				TypeCache.ScanAssembly (92ms)
-			BuildScriptInfoCaches (22ms)
-			ResolveRequiredComponents (5ms)
-	FinalizeReload (398ms)
+		AnalyzeDomain (144ms)
+			TypeCache.Refresh (113ms)
+				TypeCache.ScanAssembly (102ms)
+			BuildScriptInfoCaches (23ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (461ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (308ms)
+		SetupLoadedEditorAssemblies (342ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (1ms)
-			SetLoadedEditorAssemblies (2ms)
-			BeforeProcessingInitializeOnLoad (77ms)
-			ProcessInitializeOnLoadAttributes (203ms)
-			ProcessInitializeOnLoadMethodAttributes (23ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (89ms)
+			ProcessInitializeOnLoadAttributes (221ms)
+			ProcessInitializeOnLoadMethodAttributes (27ms)
 			AfterProcessingInitializeOnLoad (1ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -222,258 +222,50 @@ WARNING: Shader Did you use #pragma only_renderers and omit this platform?
 WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
 Launching external process: /Applications/Unity/Hub/Editor/6000.2.8f1/Unity.app/Contents/Tools/UnityShaderCompiler
 Launched and connected shader compiler UnityShaderCompiler after 0.03 seconds
-Refreshing native plugins compatible for Editor in 0.34 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.36 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 15 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6112 unused Assets / (3.9 MB). Loaded Objects now: 6801.
-Memory consumption went from 138.9 MB to 135.1 MB.
-Total: 5.550500 ms (FindLiveObjects: 0.336375 ms CreateObjectMapping: 0.202084 ms MarkObjects: 3.730166 ms  DeleteObjects: 1.281417 ms)
+Unloading 6112 unused Assets / (3.9 MB). Loaded Objects now: 6802.
+Memory consumption went from 139.6 MB to 135.7 MB.
+Total: 5.703625 ms (FindLiveObjects: 0.326542 ms CreateObjectMapping: 0.206709 ms MarkObjects: 3.718083 ms  DeleteObjects: 1.451750 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 190608.386706 seconds.
-  path: Assets/Settings/Mobile_RPAsset.asset
-  artifactKey: Guid(5e6cbd92db86f4b18aec3ed561671858) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Settings/Mobile_RPAsset.asset using Guid(5e6cbd92db86f4b18aec3ed561671858) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6b92dcb98f5585cc11bc0dd2ac680855') in 0.120788333 seconds
+  Time since last request: 191337.148355 seconds.
+  path: Assets/security-guard-rigged-3d-model/source
+  artifactKey: Guid(d45072a6761d24c16acf6badd0e0d22a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/security-guard-rigged-3d-model/source using Guid(d45072a6761d24c16acf6badd0e0d22a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '49901d24df809168bbfcba461a34fdc1') in 0.002434792 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.396376 seconds.
+  path: Assets/security-guard-rigged-3d-model/source/Guard.fbx
+  artifactKey: Guid(44c79da1b3972472ebf8dc6b9daca35e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/security-guard-rigged-3d-model/source/Guard.fbx using Guid(44c79da1b3972472ebf8dc6b9daca35e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c8990f227107175bb4aaabf0e0f633ff') in 0.663401875 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 150
+
+========================================================================
+Received Import Request.
+  Time since last request: 21.026656 seconds.
+  path: Assets/security-guard-rigged-3d-model/textures/RGB_0d3f171de3de4737b712d2ff93b08ab7_SecurityGuard_Gear_D.jpeg
+  artifactKey: Guid(d6c1204b2834543689864970ac821b94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/security-guard-rigged-3d-model/textures/RGB_0d3f171de3de4737b712d2ff93b08ab7_SecurityGuard_Gear_D.jpeg using Guid(d6c1204b2834543689864970ac821b94) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '26b2be7dee509edf316bc2ea4ae4b6fb') in 0.012562584 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets
-  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c391582d739b6e62a5220f35cbb167ac') in 0.0003225 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/Settings/Mobile_Renderer.asset
-  artifactKey: Guid(65bc7dbf4170f435aa868c779acfb082) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Settings/Mobile_Renderer.asset using Guid(65bc7dbf4170f435aa868c779acfb082) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'fcd4fe46dd6422fe83e308ed8b3835c6') in 0.016086542 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000052 seconds.
-  path: Assets/Settings/SampleSceneProfile.asset
-  artifactKey: Guid(10fc4df2da32a41aaa32d77bc913491c) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Settings/SampleSceneProfile.asset using Guid(10fc4df2da32a41aaa32d77bc913491c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a70165b8c68c23c742943dd7954d3cde') in 0.002511541 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000041 seconds.
-  path: Assets/Scenes/SampleScene.unity
-  artifactKey: Guid(99c9720ab356a0642a771bea13969a05) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Scenes/SampleScene.unity using Guid(99c9720ab356a0642a771bea13969a05) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0db1f1b348b0a000d1bc7db25beb32b3') in 0.001947834 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/Settings/PC_RPAsset.asset
-  artifactKey: Guid(4b83569d67af61e458304325a23e5dfd) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Settings/PC_RPAsset.asset using Guid(4b83569d67af61e458304325a23e5dfd) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c97e3a21a737ccf4b44d8c07566561c2') in 0.011991167 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000047 seconds.
-  path: Assets/TutorialInfo/Layout.wlt
-  artifactKey: Guid(eabc9546105bf4accac1fd62a63e88e6) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/TutorialInfo/Layout.wlt using Guid(eabc9546105bf4accac1fd62a63e88e6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '39962b13a55bf1b6e1288a0a177c3ee2') in 0.002960583 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000051 seconds.
-  path: Assets/TutorialInfo/Scripts/Editor/ReadmeEditor.cs
-  artifactKey: Guid(476cc7d7cd9874016adc216baab94a0a) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/TutorialInfo/Scripts/Editor/ReadmeEditor.cs using Guid(476cc7d7cd9874016adc216baab94a0a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '16351ae38e0ad6ef680f82cdb52d0940') in 0.004483708 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/Settings/PC_Renderer.asset
-  artifactKey: Guid(f288ae1f4751b564a96ac7587541f7a2) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Settings/PC_Renderer.asset using Guid(f288ae1f4751b564a96ac7587541f7a2) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '557894b75bce1051e82f7f63d400806b') in 0.006166375 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/Settings/DefaultVolumeProfile.asset
-  artifactKey: Guid(ab09877e2e707104187f6f83e2f62510) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Settings/DefaultVolumeProfile.asset using Guid(ab09877e2e707104187f6f83e2f62510) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a77a103568948bccd417e86f681a77fc') in 0.002990917 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/Settings/UniversalRenderPipelineGlobalSettings.asset
-  artifactKey: Guid(18dc0cd2c080841dea60987a38ce93fa) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Settings/UniversalRenderPipelineGlobalSettings.asset using Guid(18dc0cd2c080841dea60987a38ce93fa) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '534abe236fdaa06ff6355e8536d4fe04') in 0.040048584 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 153.660463 seconds.
-  path: Assets/weeping-angel-all-poses/source
-  artifactKey: Guid(05eff5a3ec7104f2dbdf73174c08bd5e) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/weeping-angel-all-poses/source using Guid(05eff5a3ec7104f2dbdf73174c08bd5e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3fdb6ed3e4be8799728067c15c0b153b') in 0.002216 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000038 seconds.
-  path: Assets/weeping-angel-all-poses/textures/angelbody.png
-  artifactKey: Guid(678f9678ac9d041acb0ba2f32673322e) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/weeping-angel-all-poses/textures/angelbody.png using Guid(678f9678ac9d041acb0ba2f32673322e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '15a62e8b0a5fd656f70d3e78f4618a22') in 0.024679291 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/weeping-angel-all-poses/textures/angelwings_nrm.png
-  artifactKey: Guid(a336f69f9fc58490c8a6be67b57a8de3) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/weeping-angel-all-poses/textures/angelwings_nrm.png using Guid(a336f69f9fc58490c8a6be67b57a8de3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'dc177c094a4b156263328710c3dcbf95') in 0.006755583 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/weeping-angel-all-poses/textures/angelwings.png
-  artifactKey: Guid(00eeeb944d2dd43df942c83b8fe58700) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/weeping-angel-all-poses/textures/angelwings.png using Guid(00eeeb944d2dd43df942c83b8fe58700) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6f9717950054a43966754dcd4076a1a1') in 0.005365791 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000076 seconds.
-  path: Assets/weeping-angel-all-poses
-  artifactKey: Guid(6ff8bc10ca4194aa29425002d551c584) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/weeping-angel-all-poses using Guid(6ff8bc10ca4194aa29425002d551c584) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '29722139ff0e24678dfb741b61605719') in 0.001839583 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.226139 seconds.
-  path: Assets/weeping-angel-all-poses
-  artifactKey: Guid(6ff8bc10ca4194aa29425002d551c584) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/weeping-angel-all-poses using Guid(6ff8bc10ca4194aa29425002d551c584) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a1212225c8c9169555c69a47a9f8f687') in 0.000352459 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.103578 seconds.
-  path: Assets/weeping-angel-all-poses/source
-  artifactKey: Guid(05eff5a3ec7104f2dbdf73174c08bd5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/weeping-angel-all-poses/source using Guid(05eff5a3ec7104f2dbdf73174c08bd5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'edec278ef63061a3ee6923c1a2e28169') in 0.000311084 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.908000 seconds.
-  path: Assets/weeping-angel-all-poses/source/Docterwho.fbx
-  artifactKey: Guid(c57f3ace5d0164f26b3caad9e36bd6ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/weeping-angel-all-poses/source/Docterwho.fbx using Guid(c57f3ace5d0164f26b3caad9e36bd6ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e87c3d6c36e39a9daf524038135f0727') in 2.568734167 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 28
-
-========================================================================
-Received Import Request.
-  Time since last request: 8.188280 seconds.
-  path: Assets/weeping-angel-all-poses/Materials
-  artifactKey: Guid(62b2b324f9e8d495d8b00467c655a5f3) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/weeping-angel-all-poses/Materials using Guid(62b2b324f9e8d495d8b00467c655a5f3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1bf650ecd3b8733cda7da7e44df2f6e0') in 0.001459166 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.682026 seconds.
-  path: Assets/weeping-angel-all-poses/Materials/angelface.mat
-  artifactKey: Guid(3b8ea231e0a15462b8ea5870a2ac05e8) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/weeping-angel-all-poses/Materials/angelface.mat using Guid(3b8ea231e0a15462b8ea5870a2ac05e8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '285fba48d07932191302f6f40bfaf4b9') in 0.005271791 seconds
+  Time since last request: 0.576660 seconds.
+  path: Assets/security-guard-rigged-3d-model/textures/RGB_942ffe12241e42f3b848c48eff35c05b_SecurityGuard_Head_3_D.jpeg
+  artifactKey: Guid(d3e65850cbeb349299ab1640f6a062aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/security-guard-rigged-3d-model/textures/RGB_942ffe12241e42f3b848c48eff35c05b_SecurityGuard_Head_3_D.jpeg using Guid(d3e65850cbeb349299ab1640f6a062aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '59b62a3ac62748cd4ef6e0c614976e7d') in 0.005125375 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
 ========================================================================
 Received Import Request.
-  Time since last request: 2.504453 seconds.
-  path: Assets/weeping-angel-all-poses/Materials/angelwings.mat
-  artifactKey: Guid(df886c4c693f843ed8481b9bdbed85da) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/weeping-angel-all-poses/Materials/angelwings.mat using Guid(df886c4c693f843ed8481b9bdbed85da) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c21039c3aca5e4a3d430c8651ad189b9') in 0.003678083 seconds
+  Time since last request: 7.330308 seconds.
+  path: Assets/security-guard-rigged-3d-model/textures/RGB_9192397b71444a7bb139dbd7dc7ac83f_SecurityGuard_Body_D.jpeg
+  artifactKey: Guid(6d1c5dd3936524314bd42989b601efd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/security-guard-rigged-3d-model/textures/RGB_9192397b71444a7bb139dbd7dc7ac83f_SecurityGuard_Body_D.jpeg using Guid(6d1c5dd3936524314bd42989b601efd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '80f9e1a827b0a95d05981528bde8d96e') in 0.005399792 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 41.712759 seconds.
-  path: Assets/weeping-angel-all-poses/textures/angelface.png
-  artifactKey: Guid(5e399d41598d94637bead039e86c413b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/weeping-angel-all-poses/textures/angelface.png using Guid(5e399d41598d94637bead039e86c413b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0b6745cd7210c9141b90f53003be3863') in 0.013129083 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 74.875461 seconds.
-  path: Assets/weeping-angel-all-poses/Materials/angelbody_nrm.mat
-  artifactKey: Guid(bbacb31bc15d84f69a19f03efe763eb5) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/weeping-angel-all-poses/Materials/angelbody_nrm.mat using Guid(bbacb31bc15d84f69a19f03efe763eb5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0f75ff9b75ddd87a131bb716e936d1a4') in 0.003460916 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.940898 seconds.
-  path: Assets/weeping-angel-all-poses/Materials/angelface_nrm.mat
-  artifactKey: Guid(073a85dbc2a9d4c53afa32f3f691c68e) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/weeping-angel-all-poses/Materials/angelface_nrm.mat using Guid(073a85dbc2a9d4c53afa32f3f691c68e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f91b40aaad16c424aa8f8dcea21d4dd1') in 0.003496833 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.440140 seconds.
-  path: Assets/weeping-angel-all-poses/Materials/angelwings_nrm.mat
-  artifactKey: Guid(4160212687a1d4d54a6ce5692db6ccb3) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/weeping-angel-all-poses/Materials/angelwings_nrm.mat using Guid(4160212687a1d4d54a6ce5692db6ccb3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9793a60e7bf290c67f094df46b45e9d1') in 0.003718459 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 117.857191 seconds.
-  path: Assets/Scenes
-  artifactKey: Guid(9c53962885c2c4f449125a979d6ad240) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes using Guid(9c53962885c2c4f449125a979d6ad240) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd65b75f456837a3494a5e6e744543932') in 0.000371542 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.882292 seconds.
-  path: Assets/Scenes/SampleScene.unity
-  artifactKey: Guid(99c9720ab356a0642a771bea13969a05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/SampleScene.unity using Guid(99c9720ab356a0642a771bea13969a05) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '092f7974db3fb175701bdf9959c1e23b') in 0.000341458 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 24.549597 seconds.
-  path: Assets/Demo.unity
-  artifactKey: Guid(d33ad11f679234313bfb27b3e430ca9f) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Demo.unity using Guid(d33ad11f679234313bfb27b3e430ca9f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a10beb1ebba23c62895765489a920c0d') in 0.003551125 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.487619 seconds.
-  path: Assets/Scenes/Demo.unity
-  artifactKey: Guid(d33ad11f679234313bfb27b3e430ca9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Demo.unity using Guid(d33ad11f679234313bfb27b3e430ca9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd3012d547847574318e00e75c855e1b3') in 0.000337459 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.961671 seconds.
-  path: Assets/Scenes/Demo.unity
-  artifactKey: Guid(d33ad11f679234313bfb27b3e430ca9f) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Scenes/Demo.unity using Guid(d33ad11f679234313bfb27b3e430ca9f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'aa4851b4e01bab051954d2fb421bd218') in 0.002459542 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
 

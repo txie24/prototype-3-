@@ -7,9 +7,9 @@ Darwin version:          25.0.0
 Architecture:            arm64
 Running under Rosetta:   NO
 Available memory:        32768 MB
-Date:                    2025-10-29T20:21:25Z
+Date:                    2025-10-29T20:22:53Z
 [Licensing::Module] Trying to connect to existing licensing client channel...
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-l6mVCrP0WxDioRn3DNdoZ" at "2025-10-29T20:21:25.039485Z"
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-l6mVCrP0WxDioRn3DNdoZ" at "2025-10-29T20:22:53.346408Z"
 
 COMMAND LINE ARGUMENTS:
 /Applications/Unity/Hub/Editor/6000.2.8f1/Unity.app/Contents/MacOS/Unity
@@ -23,7 +23,7 @@ AssetImportWorker1
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-55778
+56046
 -licensingIpc
 LicenseClient-l6mVCrP0WxDioRn3DNdoZ
 -job-worker-count
@@ -72,7 +72,7 @@ Successfully changed project path to: /Users/tinyux/Desktop/prototype-3-
     "memorysetup-temp-allocator-size-gfx=262144"
 Player connection [8581711872]  Target information:
 
-Player connection [8581711872]  * "[IP] 169.233.248.75 [Port] 0 [Flags] 2 [Guid] 1613673295 [EditorId] 1613673295 [Version] 1048832 [Id] OSXEditor(0,eduroam-169-233-248-75.ucsc.edu) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" 
+Player connection [8581711872]  * "[IP] 169.233.248.75 [Port] 0 [Flags] 2 [Guid] 959880924 [EditorId] 959880924 [Version] 1048832 [Id] OSXEditor(0,eduroam-169-233-248-75.ucsc.edu) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" 
 
 Player connection [8581711872] Host joined multi-casting on [225.0.0.222:54997]...
 Player connection [8581711872] Host joined alternative multi-casting on [225.0.0.222:34997]...
@@ -87,7 +87,7 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 6.74 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.98 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 6000.2.8f1 (c9992ac36c34)
 [Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/6000.2.8f1/Unity.app/Contents/Resources/UnitySubsystems
@@ -108,56 +108,56 @@ Initialize mono
 Mono path[0] = '/Applications/Unity/Hub/Editor/6000.2.8f1/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/Unity/Hub/Editor/6000.2.8f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
 Mono config path = '/Applications/Unity/Hub/Editor/6000.2.8f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56940
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56099
 Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/6000.2.8f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/6000.2.8f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.000318 seconds.
 [Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 43523, path: "/Applications/Unity Hub.app/Contents/Frameworks/UnityLicensingClient_V1.app/Contents/MacOS/Unity.Licensing.Client")
 [Licensing::Module] LicensingClient has failed validation; ignoring
 [Licensing::Client] Handshaking with LicensingClient:
   Version:                 1.17.3+a4e98f1
-  Session Id:              871bf8d246c34644ae1799f3e0ad2d8e
+  Session Id:              f153bfc54bb94054b71432ddc3d66b78
   Correlation Id:          cf57dca2c80cf645d2f2947f6461d146
-  External correlation Id: 2961039227300506875
+  External correlation Id: 5017680152416793493
   Machine Id:              MNUh735EPoZdHcbWblNHRs1auO0=
-[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-l6mVCrP0WxDioRn3DNdoZ" (connect: 0.00s, validation: 0.01s, handshake: 0.51s)
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-l6mVCrP0WxDioRn3DNdoZ-notifications" at "2025-10-29T20:21:25.564715Z"
-[Licensing::Module] Licensing Background thread has ended after 0.53s
-Registering precompiled unity dll's ...
-Register platform support module: /Applications/Unity/Hub/Editor/6000.2.8f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
-Register platform support module: /Applications/Unity/Hub/Editor/6000.2.8f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Registered in 0.000493 seconds.
-- Loaded All Assemblies, in  0.278 seconds
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-l6mVCrP0WxDioRn3DNdoZ" (connect: 0.00s, validation: 0.00s, handshake: 0.60s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-l6mVCrP0WxDioRn3DNdoZ-notifications" at "2025-10-29T20:22:53.943964Z"
+[Licensing::Module] Licensing Background thread has ended after 0.60s
+- Loaded All Assemblies, in  0.208 seconds
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.325 seconds
-Domain Reload Profiling: 603ms
-	BeginReloadAssembly (98ms)
+- Finished resetting the current domain, in  0.230 seconds
+Domain Reload Profiling: 438ms
+	BeginReloadAssembly (50ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (0ms)
-	RebuildCommonClasses (28ms)
-	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (28ms)
-	LoadAllAssembliesAndSetupDomain (113ms)
-		LoadAssemblies (98ms)
+	RebuildCommonClasses (24ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (24ms)
+	LoadAllAssembliesAndSetupDomain (101ms)
+		LoadAssemblies (49ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (110ms)
-			TypeCache.Refresh (109ms)
-				TypeCache.ScanAssembly (98ms)
+		AnalyzeDomain (100ms)
+			TypeCache.Refresh (99ms)
+				TypeCache.ScanAssembly (90ms)
 			BuildScriptInfoCaches (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (325ms)
+	FinalizeReload (230ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (291ms)
+		SetupLoadedEditorAssemblies (200ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (37ms)
-			SetLoadedEditorAssemblies (6ms)
-			BeforeProcessingInitializeOnLoad (62ms)
-			ProcessInitializeOnLoadAttributes (121ms)
-			ProcessInitializeOnLoadMethodAttributes (65ms)
+			InitializePlatformSupportModulesInManaged (29ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (46ms)
+			ProcessInitializeOnLoadAttributes (80ms)
+			ProcessInitializeOnLoadMethodAttributes (42ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -172,8 +172,8 @@ Begin MonoManager ReloadAssembly
   Product: Unity Personal Version
   Type: Assigned
   Expiration: Unlimited
-- Loaded All Assemblies, in  0.474 seconds
-Refreshing native plugins compatible for Editor in 0.33 ms, found 2 plugins.
+- Loaded All Assemblies, in  0.399 seconds
+Refreshing native plugins compatible for Editor in 0.27 ms, found 2 plugins.
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
 Package Manager log level set to [2]
@@ -182,38 +182,38 @@ Package Manager log level set to [2]
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
 - Finished resetting the current domain, in  0.415 seconds
-Domain Reload Profiling: 889ms
-	BeginReloadAssembly (79ms)
+Domain Reload Profiling: 814ms
+	BeginReloadAssembly (74ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (3ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (14ms)
-	RebuildCommonClasses (23ms)
+	RebuildCommonClasses (24ms)
 	RebuildNativeTypeToScriptingClass (9ms)
-	initialDomainReloadingComplete (19ms)
-	LoadAllAssembliesAndSetupDomain (343ms)
-		LoadAssemblies (245ms)
+	initialDomainReloadingComplete (20ms)
+	LoadAllAssembliesAndSetupDomain (271ms)
+		LoadAssemblies (157ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (135ms)
-			TypeCache.Refresh (105ms)
-				TypeCache.ScanAssembly (93ms)
-			BuildScriptInfoCaches (22ms)
+		AnalyzeDomain (147ms)
+			TypeCache.Refresh (114ms)
+				TypeCache.ScanAssembly (103ms)
+			BuildScriptInfoCaches (24ms)
 			ResolveRequiredComponents (6ms)
-	FinalizeReload (415ms)
+	FinalizeReload (416ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (315ms)
+		SetupLoadedEditorAssemblies (314ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (2ms)
 			SetLoadedEditorAssemblies (3ms)
-			BeforeProcessingInitializeOnLoad (80ms)
-			ProcessInitializeOnLoadAttributes (204ms)
-			ProcessInitializeOnLoadMethodAttributes (26ms)
+			BeforeProcessingInitializeOnLoad (79ms)
+			ProcessInitializeOnLoadAttributes (206ms)
+			ProcessInitializeOnLoadMethodAttributes (23ms)
 			AfterProcessingInitializeOnLoad (1ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (2ms)
+		AwakeInstancesAfterBackupRestoration (1ms)
 WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
 WARNING: Shader Did you use #pragma only_renderers and omit this platform?
 WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
@@ -221,35 +221,91 @@ WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wirefr
 WARNING: Shader Did you use #pragma only_renderers and omit this platform?
 WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
 Launching external process: /Applications/Unity/Hub/Editor/6000.2.8f1/Unity.app/Contents/Tools/UnityShaderCompiler
-Launched and connected shader compiler UnityShaderCompiler after 0.04 seconds
-Refreshing native plugins compatible for Editor in 0.36 ms, found 2 plugins.
+Launched and connected shader compiler UnityShaderCompiler after 0.03 seconds
+Refreshing native plugins compatible for Editor in 0.27 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 15 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6112 unused Assets / (4.2 MB). Loaded Objects now: 6799.
-Memory consumption went from 139.3 MB to 135.1 MB.
-Total: 5.787792 ms (FindLiveObjects: 0.424000 ms CreateObjectMapping: 0.205375 ms MarkObjects: 3.815084 ms  DeleteObjects: 1.342708 ms)
+Unloading 6112 unused Assets / (3.4 MB). Loaded Objects now: 6801.
+Memory consumption went from 139.1 MB to 135.7 MB.
+Total: 4.976209 ms (FindLiveObjects: 0.313917 ms CreateObjectMapping: 0.201333 ms MarkObjects: 3.309833 ms  DeleteObjects: 1.150917 ms)
 
-========================================================================
-Received Prepare
-WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-Refreshing native plugins compatible for Editor in 0.38 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 15 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 15 unused Assets / (1.9 MB). Loaded Objects now: 6799.
-Memory consumption went from 131.6 MB to 129.8 MB.
-Total: 4.163834 ms (FindLiveObjects: 0.195125 ms CreateObjectMapping: 0.122666 ms MarkObjects: 3.628459 ms  DeleteObjects: 0.217083 ms)
-
-Prepare: number of updated asset objects reloaded= 0
 ========================================================================
 Received Import Request.
-  Time since last request: 190531.205929 seconds.
+  Time since last request: 190608.482279 seconds.
   path: Assets/InputSystem_Actions.inputactions
-  artifactKey: Guid(052faaac586de48259a63d0c4782560b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/InputSystem_Actions.inputactions using Guid(052faaac586de48259a63d0c4782560b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '01930f40487c8621e82f37946cdc2c76') in 0.013656625 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+  artifactKey: Guid(052faaac586de48259a63d0c4782560b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/InputSystem_Actions.inputactions using Guid(052faaac586de48259a63d0c4782560b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'fd025fdb5cf4bba8e2cd2293ec2a70a2') in 0.170515792 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 22
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/TutorialInfo/Icons/URP.png
+  artifactKey: Guid(727a75301c3d24613a3ebcec4a24c2c8) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TutorialInfo/Icons/URP.png using Guid(727a75301c3d24613a3ebcec4a24c2c8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9068404f79be93b3f786148806f93c32') in 0.029267334 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Readme.asset
+  artifactKey: Guid(8105016687592461f977c054a80ce2f2) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Readme.asset using Guid(8105016687592461f977c054a80ce2f2) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '30d6bb63ca5dc2e2e53fa94d9cfb5d04') in 0.002578333 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/TutorialInfo/Scripts/Readme.cs
+  artifactKey: Guid(fcf7219bab7fe46a1ad266029b2fee19) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TutorialInfo/Scripts/Readme.cs using Guid(fcf7219bab7fe46a1ad266029b2fee19) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2eac7f26f822e6c4a3638598658a3f2c') in 0.004882 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 153.683569 seconds.
+  path: Assets/weeping-angel-all-poses/textures
+  artifactKey: Guid(34b5785265653423c966f561fb5e30ae) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/weeping-angel-all-poses/textures using Guid(34b5785265653423c966f561fb5e30ae) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6a1c124c95d78ef9979699af645a7d19') in 0.002523291 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/weeping-angel-all-poses/textures/angelbody_nrm.png
+  artifactKey: Guid(1ec40361315a541268b4c001f706abed) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/weeping-angel-all-poses/textures/angelbody_nrm.png using Guid(1ec40361315a541268b4c001f706abed) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9dc4bad4bb12c736a5789d0c1ff875a2') in 0.00618075 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/weeping-angel-all-poses/textures/angelface.png
+  artifactKey: Guid(5e399d41598d94637bead039e86c413b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/weeping-angel-all-poses/textures/angelface.png using Guid(5e399d41598d94637bead039e86c413b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4665c7d214313c64ebc775677f066f44') in 0.00492125 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/weeping-angel-all-poses/textures/angelface_nrm.png
+  artifactKey: Guid(55145c248b4614b11958c7977291f69f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/weeping-angel-all-poses/textures/angelface_nrm.png using Guid(55145c248b4614b11958c7977291f69f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6b2167aa91593981c9fde7cbc6865b12') in 0.004622042 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/weeping-angel-all-poses/source/Docterwho.fbx
+  artifactKey: Guid(c57f3ace5d0164f26b3caad9e36bd6ea) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/weeping-angel-all-poses/source/Docterwho.fbx using Guid(c57f3ace5d0164f26b3caad9e36bd6ea) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd715f6dee6c72b42a88ac93bbcce9934') in 0.041764625 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 28
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.036002 seconds.
+  path: Assets/weeping-angel-all-poses/Materials/angelbody.mat
+  artifactKey: Guid(2a3448c8c1dcc41e0bdd638a22378c58) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/weeping-angel-all-poses/Materials/angelbody.mat using Guid(2a3448c8c1dcc41e0bdd638a22378c58) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '12201883cb31d91f34911e2cf24c5aa2') in 0.00338725 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
