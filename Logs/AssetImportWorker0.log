@@ -7,9 +7,9 @@ Darwin version:          25.0.0
 Architecture:            arm64
 Running under Rosetta:   NO
 Available memory:        32768 MB
-Date:                    2025-10-29T20:34:58Z
+Date:                    2025-10-29T20:45:56Z
 [Licensing::Module] Trying to connect to existing licensing client channel...
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-l6mVCrP0WxDioRn3DNdoZ" at "2025-10-29T20:34:58.776402Z"
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-l6mVCrP0WxDioRn3DNdoZ" at "2025-10-29T20:45:56.489306Z"
 
 COMMAND LINE ARGUMENTS:
 /Applications/Unity/Hub/Editor/6000.2.8f1/Unity.app/Contents/MacOS/Unity
@@ -23,7 +23,7 @@ AssetImportWorker0
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-58019
+60001
 -licensingIpc
 LicenseClient-l6mVCrP0WxDioRn3DNdoZ
 -job-worker-count
@@ -72,7 +72,7 @@ Successfully changed project path to: /Users/tinyux/Desktop/prototype-3-
     "memorysetup-temp-allocator-size-gfx=262144"
 Player connection [8581711872]  Target information:
 
-Player connection [8581711872]  * "[IP] 169.233.248.75 [Port] 0 [Flags] 2 [Guid] 1860467441 [EditorId] 1860467441 [Version] 1048832 [Id] OSXEditor(0,eduroam-169-233-248-75.ucsc.edu) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" 
+Player connection [8581711872]  * "[IP] 169.233.248.75 [Port] 0 [Flags] 2 [Guid] 3138836444 [EditorId] 3138836444 [Version] 1048832 [Id] OSXEditor(0,eduroam-169-233-248-75.ucsc.edu) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" 
 
 Player connection [8581711872] Host joined multi-casting on [225.0.0.222:54997]...
 Player connection [8581711872] Host joined alternative multi-casting on [225.0.0.222:34997]...
@@ -87,7 +87,7 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 2.16 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.87 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 6000.2.8f1 (c9992ac36c34)
 [Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/6000.2.8f1/Unity.app/Contents/Resources/UnitySubsystems
@@ -108,56 +108,56 @@ Initialize mono
 Mono path[0] = '/Applications/Unity/Hub/Editor/6000.2.8f1/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/Unity/Hub/Editor/6000.2.8f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
 Mono config path = '/Applications/Unity/Hub/Editor/6000.2.8f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56979
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56305
+Begin MonoManager ReloadAssembly
 [Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 43523, path: "/Applications/Unity Hub.app/Contents/Frameworks/UnityLicensingClient_V1.app/Contents/MacOS/Unity.Licensing.Client")
 [Licensing::Module] LicensingClient has failed validation; ignoring
 [Licensing::Client] Handshaking with LicensingClient:
   Version:                 1.17.3+a4e98f1
-  Session Id:              861db4a80d86413f91f6be64d991efd3
+  Session Id:              256d90e12af4403197922c47720336ec
   Correlation Id:          cf57dca2c80cf645d2f2947f6461d146
-  External correlation Id: 7083766511038444900
+  External correlation Id: 1698147426324595621
   Machine Id:              MNUh735EPoZdHcbWblNHRs1auO0=
-[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-l6mVCrP0WxDioRn3DNdoZ" (connect: 0.00s, validation: 0.00s, handshake: 0.42s)
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-l6mVCrP0WxDioRn3DNdoZ-notifications" at "2025-10-29T20:34:59.201117Z"
-[Licensing::Module] Licensing Background thread has ended after 0.42s
-Begin MonoManager ReloadAssembly
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-l6mVCrP0WxDioRn3DNdoZ" (connect: 0.00s, validation: 0.00s, handshake: 0.45s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-l6mVCrP0WxDioRn3DNdoZ-notifications" at "2025-10-29T20:45:56.935494Z"
+[Licensing::Module] Licensing Background thread has ended after 0.45s
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/Unity/Hub/Editor/6000.2.8f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: /Applications/Unity/Hub/Editor/6000.2.8f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Registered in 0.000313 seconds.
-- Loaded All Assemblies, in  0.235 seconds
+Registered in 0.000335 seconds.
+- Loaded All Assemblies, in  0.211 seconds
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.241 seconds
-Domain Reload Profiling: 476ms
-	BeginReloadAssembly (59ms)
+- Finished resetting the current domain, in  0.238 seconds
+Domain Reload Profiling: 449ms
+	BeginReloadAssembly (53ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (0ms)
-	RebuildCommonClasses (27ms)
+	RebuildCommonClasses (23ms)
 	RebuildNativeTypeToScriptingClass (9ms)
-	initialDomainReloadingComplete (27ms)
-	LoadAllAssembliesAndSetupDomain (112ms)
-		LoadAssemblies (59ms)
+	initialDomainReloadingComplete (25ms)
+	LoadAllAssembliesAndSetupDomain (100ms)
+		LoadAssemblies (53ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (111ms)
-			TypeCache.Refresh (110ms)
-				TypeCache.ScanAssembly (99ms)
+		AnalyzeDomain (99ms)
+			TypeCache.Refresh (98ms)
+				TypeCache.ScanAssembly (90ms)
 			BuildScriptInfoCaches (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (241ms)
+	FinalizeReload (238ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (211ms)
+		SetupLoadedEditorAssemblies (209ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (29ms)
-			SetLoadedEditorAssemblies (3ms)
-			BeforeProcessingInitializeOnLoad (53ms)
-			ProcessInitializeOnLoadAttributes (89ms)
-			ProcessInitializeOnLoadMethodAttributes (38ms)
+			InitializePlatformSupportModulesInManaged (30ms)
+			SetLoadedEditorAssemblies (2ms)
+			BeforeProcessingInitializeOnLoad (51ms)
+			ProcessInitializeOnLoadAttributes (85ms)
+			ProcessInitializeOnLoadMethodAttributes (40ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -172,8 +172,8 @@ Begin MonoManager ReloadAssembly
   Product: Unity Personal Version
   Type: Assigned
   Expiration: Unlimited
-- Loaded All Assemblies, in  0.410 seconds
-Refreshing native plugins compatible for Editor in 0.41 ms, found 2 plugins.
+- Loaded All Assemblies, in  0.418 seconds
+Refreshing native plugins compatible for Editor in 0.32 ms, found 2 plugins.
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
 Package Manager log level set to [2]
@@ -181,36 +181,36 @@ Package Manager log level set to [2]
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.461 seconds
-Domain Reload Profiling: 871ms
-	BeginReloadAssembly (79ms)
+- Finished resetting the current domain, in  0.436 seconds
+Domain Reload Profiling: 854ms
+	BeginReloadAssembly (75ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (3ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (14ms)
-	RebuildCommonClasses (28ms)
-	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (21ms)
-	LoadAllAssembliesAndSetupDomain (272ms)
-		LoadAssemblies (163ms)
+	RebuildCommonClasses (26ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (19ms)
+	LoadAllAssembliesAndSetupDomain (289ms)
+		LoadAssemblies (166ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (144ms)
-			TypeCache.Refresh (113ms)
-				TypeCache.ScanAssembly (102ms)
-			BuildScriptInfoCaches (23ms)
-			ResolveRequiredComponents (6ms)
-	FinalizeReload (461ms)
+		AnalyzeDomain (155ms)
+			TypeCache.Refresh (121ms)
+				TypeCache.ScanAssembly (109ms)
+			BuildScriptInfoCaches (25ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (436ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (342ms)
+		SetupLoadedEditorAssemblies (327ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (2ms)
 			SetLoadedEditorAssemblies (3ms)
-			BeforeProcessingInitializeOnLoad (89ms)
-			ProcessInitializeOnLoadAttributes (221ms)
+			BeforeProcessingInitializeOnLoad (79ms)
+			ProcessInitializeOnLoadAttributes (216ms)
 			ProcessInitializeOnLoadMethodAttributes (27ms)
-			AfterProcessingInitializeOnLoad (1ms)
+			AfterProcessingInitializeOnLoad (2ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (2ms)
@@ -222,51 +222,58 @@ WARNING: Shader Did you use #pragma only_renderers and omit this platform?
 WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
 Launching external process: /Applications/Unity/Hub/Editor/6000.2.8f1/Unity.app/Contents/Tools/UnityShaderCompiler
 Launched and connected shader compiler UnityShaderCompiler after 0.03 seconds
-Refreshing native plugins compatible for Editor in 0.36 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.32 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 15 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6112 unused Assets / (3.9 MB). Loaded Objects now: 6802.
-Memory consumption went from 139.6 MB to 135.7 MB.
-Total: 5.703625 ms (FindLiveObjects: 0.326542 ms CreateObjectMapping: 0.206709 ms MarkObjects: 3.718083 ms  DeleteObjects: 1.451750 ms)
+Unloading 6112 unused Assets / (4.1 MB). Loaded Objects now: 6802.
+Memory consumption went from 139.4 MB to 135.3 MB.
+Total: 6.224292 ms (FindLiveObjects: 0.585459 ms CreateObjectMapping: 0.229375 ms MarkObjects: 4.009041 ms  DeleteObjects: 1.399833 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 191337.148355 seconds.
-  path: Assets/security-guard-rigged-3d-model/source
-  artifactKey: Guid(d45072a6761d24c16acf6badd0e0d22a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/security-guard-rigged-3d-model/source using Guid(d45072a6761d24c16acf6badd0e0d22a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '49901d24df809168bbfcba461a34fdc1') in 0.002434792 seconds
+  Time since last request: 191991.860681 seconds.
+  path: Assets/security-guard-rigged-3d-model
+  artifactKey: Guid(82a45013f19f84da690984770e55f123) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/security-guard-rigged-3d-model using Guid(82a45013f19f84da690984770e55f123) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b46b93727c1c0e5869795e693d8f48fa') in 0.002256125 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.396376 seconds.
-  path: Assets/security-guard-rigged-3d-model/source/Guard.fbx
-  artifactKey: Guid(44c79da1b3972472ebf8dc6b9daca35e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/security-guard-rigged-3d-model/source/Guard.fbx using Guid(44c79da1b3972472ebf8dc6b9daca35e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c8990f227107175bb4aaabf0e0f633ff') in 0.663401875 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 150
+  Time since last request: 0.433326 seconds.
+  path: Assets/Settings
+  artifactKey: Guid(709f11a7f3c4041caa4ef136ea32d874) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Settings using Guid(709f11a7f3c4041caa4ef136ea32d874) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c4b47d252bc4e8d77fd6334abcf5e3e8') in 0.000360584 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 
 ========================================================================
 Received Import Request.
-  Time since last request: 21.026656 seconds.
-  path: Assets/security-guard-rigged-3d-model/textures/RGB_0d3f171de3de4737b712d2ff93b08ab7_SecurityGuard_Gear_D.jpeg
-  artifactKey: Guid(d6c1204b2834543689864970ac821b94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/security-guard-rigged-3d-model/textures/RGB_0d3f171de3de4737b712d2ff93b08ab7_SecurityGuard_Gear_D.jpeg using Guid(d6c1204b2834543689864970ac821b94) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '26b2be7dee509edf316bc2ea4ae4b6fb') in 0.012562584 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+  Time since last request: 2.481850 seconds.
+  path: Assets/security-guard-rigged-3d-model/Materials
+  artifactKey: Guid(51c93a42e58e741b9bf3111bdede7383) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/security-guard-rigged-3d-model/Materials using Guid(51c93a42e58e741b9bf3111bdede7383) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bdeb8b0756430d9bd7c13a2e48b0837f') in 0.000329709 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.576660 seconds.
+  Time since last request: 1.407921 seconds.
+  path: Assets/security-guard-rigged-3d-model/source
+  artifactKey: Guid(d45072a6761d24c16acf6badd0e0d22a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/security-guard-rigged-3d-model/source using Guid(d45072a6761d24c16acf6badd0e0d22a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '49901d24df809168bbfcba461a34fdc1') in 0.000308375 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.696599 seconds.
+  path: Assets/security-guard-rigged-3d-model/textures
+  artifactKey: Guid(65819a054c1234f299e4234fa9136aa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/security-guard-rigged-3d-model/textures using Guid(65819a054c1234f299e4234fa9136aa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6288023ed01a21e7ff5c89f9423772db') in 0.000382 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.498537 seconds.
   path: Assets/security-guard-rigged-3d-model/textures/RGB_942ffe12241e42f3b848c48eff35c05b_SecurityGuard_Head_3_D.jpeg
   artifactKey: Guid(d3e65850cbeb349299ab1640f6a062aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/security-guard-rigged-3d-model/textures/RGB_942ffe12241e42f3b848c48eff35c05b_SecurityGuard_Head_3_D.jpeg using Guid(d3e65850cbeb349299ab1640f6a062aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '59b62a3ac62748cd4ef6e0c614976e7d') in 0.005125375 seconds
+Start importing Assets/security-guard-rigged-3d-model/textures/RGB_942ffe12241e42f3b848c48eff35c05b_SecurityGuard_Head_3_D.jpeg using Guid(d3e65850cbeb349299ab1640f6a062aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '59b62a3ac62748cd4ef6e0c614976e7d') in 0.03126425 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
-========================================================================
-Received Import Request.
-  Time since last request: 7.330308 seconds.
-  path: Assets/security-guard-rigged-3d-model/textures/RGB_9192397b71444a7bb139dbd7dc7ac83f_SecurityGuard_Body_D.jpeg
-  artifactKey: Guid(6d1c5dd3936524314bd42989b601efd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/security-guard-rigged-3d-model/textures/RGB_9192397b71444a7bb139dbd7dc7ac83f_SecurityGuard_Body_D.jpeg using Guid(6d1c5dd3936524314bd42989b601efd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '80f9e1a827b0a95d05981528bde8d96e') in 0.005399792 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-AssetImportWorkerClient::OnTransportError - code=2 error=End of file

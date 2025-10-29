@@ -7,9 +7,9 @@ Darwin version:          25.0.0
 Architecture:            arm64
 Running under Rosetta:   NO
 Available memory:        32768 MB
-Date:                    2025-10-29T20:34:58Z
+Date:                    2025-10-29T20:45:56Z
 [Licensing::Module] Trying to connect to existing licensing client channel...
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-l6mVCrP0WxDioRn3DNdoZ" at "2025-10-29T20:34:58.768447Z"
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-l6mVCrP0WxDioRn3DNdoZ" at "2025-10-29T20:45:56.493214Z"
 
 COMMAND LINE ARGUMENTS:
 /Applications/Unity/Hub/Editor/6000.2.8f1/Unity.app/Contents/MacOS/Unity
@@ -23,7 +23,7 @@ AssetImportWorker1
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-58019
+60001
 -licensingIpc
 LicenseClient-l6mVCrP0WxDioRn3DNdoZ
 -job-worker-count
@@ -72,7 +72,7 @@ Successfully changed project path to: /Users/tinyux/Desktop/prototype-3-
     "memorysetup-temp-allocator-size-gfx=262144"
 Player connection [8581711872]  Target information:
 
-Player connection [8581711872]  * "[IP] 169.233.248.75 [Port] 0 [Flags] 2 [Guid] 2084792369 [EditorId] 2084792369 [Version] 1048832 [Id] OSXEditor(0,eduroam-169-233-248-75.ucsc.edu) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" 
+Player connection [8581711872]  * "[IP] 169.233.248.75 [Port] 0 [Flags] 2 [Guid] 677435052 [EditorId] 677435052 [Version] 1048832 [Id] OSXEditor(0,eduroam-169-233-248-75.ucsc.edu) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" 
 
 Player connection [8581711872] Host joined multi-casting on [225.0.0.222:54997]...
 Player connection [8581711872] Host joined alternative multi-casting on [225.0.0.222:34997]...
@@ -87,7 +87,7 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 2.14 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.75 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 6000.2.8f1 (c9992ac36c34)
 [Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/6000.2.8f1/Unity.app/Contents/Resources/UnitySubsystems
@@ -108,56 +108,56 @@ Initialize mono
 Mono path[0] = '/Applications/Unity/Hub/Editor/6000.2.8f1/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/Unity/Hub/Editor/6000.2.8f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
 Mono config path = '/Applications/Unity/Hub/Editor/6000.2.8f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56981
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56307
+Begin MonoManager ReloadAssembly
 [Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 43523, path: "/Applications/Unity Hub.app/Contents/Frameworks/UnityLicensingClient_V1.app/Contents/MacOS/Unity.Licensing.Client")
 [Licensing::Module] LicensingClient has failed validation; ignoring
 [Licensing::Client] Handshaking with LicensingClient:
   Version:                 1.17.3+a4e98f1
-  Session Id:              f4e18db918f44ff7a05a3811068f3029
+  Session Id:              61138af40d6e449fa99b603aa49b62f9
   Correlation Id:          cf57dca2c80cf645d2f2947f6461d146
-  External correlation Id: 7302495274838011196
+  External correlation Id: 8252396569815749147
   Machine Id:              MNUh735EPoZdHcbWblNHRs1auO0=
-[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-l6mVCrP0WxDioRn3DNdoZ" (connect: 0.00s, validation: 0.00s, handshake: 0.43s)
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-l6mVCrP0WxDioRn3DNdoZ-notifications" at "2025-10-29T20:34:59.201076Z"
-[Licensing::Module] Licensing Background thread has ended after 0.43s
-Begin MonoManager ReloadAssembly
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-l6mVCrP0WxDioRn3DNdoZ" (connect: 0.00s, validation: 0.00s, handshake: 0.45s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-l6mVCrP0WxDioRn3DNdoZ-notifications" at "2025-10-29T20:45:56.939358Z"
+[Licensing::Module] Licensing Background thread has ended after 0.45s
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/Unity/Hub/Editor/6000.2.8f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: /Applications/Unity/Hub/Editor/6000.2.8f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Registered in 0.000406 seconds.
-- Loaded All Assemblies, in  0.223 seconds
+Registered in 0.000441 seconds.
+- Loaded All Assemblies, in  0.213 seconds
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
 - Finished resetting the current domain, in  0.237 seconds
-Domain Reload Profiling: 460ms
-	BeginReloadAssembly (58ms)
+Domain Reload Profiling: 450ms
+	BeginReloadAssembly (56ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (0ms)
-	RebuildCommonClasses (24ms)
-	RebuildNativeTypeToScriptingClass (9ms)
-	initialDomainReloadingComplete (26ms)
-	LoadAllAssembliesAndSetupDomain (105ms)
-		LoadAssemblies (58ms)
+	RebuildCommonClasses (22ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (24ms)
+	LoadAllAssembliesAndSetupDomain (102ms)
+		LoadAssemblies (55ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (104ms)
-			TypeCache.Refresh (103ms)
-				TypeCache.ScanAssembly (93ms)
+		AnalyzeDomain (101ms)
+			TypeCache.Refresh (100ms)
+				TypeCache.ScanAssembly (91ms)
 			BuildScriptInfoCaches (0ms)
 			ResolveRequiredComponents (0ms)
 	FinalizeReload (237ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (206ms)
+		SetupLoadedEditorAssemblies (208ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (31ms)
-			SetLoadedEditorAssemblies (3ms)
-			BeforeProcessingInitializeOnLoad (48ms)
-			ProcessInitializeOnLoadAttributes (84ms)
-			ProcessInitializeOnLoadMethodAttributes (41ms)
+			InitializePlatformSupportModulesInManaged (29ms)
+			SetLoadedEditorAssemblies (2ms)
+			BeforeProcessingInitializeOnLoad (51ms)
+			ProcessInitializeOnLoadAttributes (87ms)
+			ProcessInitializeOnLoadMethodAttributes (38ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -172,8 +172,8 @@ Begin MonoManager ReloadAssembly
   Product: Unity Personal Version
   Type: Assigned
   Expiration: Unlimited
-- Loaded All Assemblies, in  0.425 seconds
-Refreshing native plugins compatible for Editor in 0.28 ms, found 2 plugins.
+- Loaded All Assemblies, in  0.398 seconds
+Refreshing native plugins compatible for Editor in 0.21 ms, found 2 plugins.
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
 Package Manager log level set to [2]
@@ -181,39 +181,39 @@ Package Manager log level set to [2]
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.415 seconds
-Domain Reload Profiling: 841ms
+- Finished resetting the current domain, in  0.428 seconds
+Domain Reload Profiling: 827ms
 	BeginReloadAssembly (74ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (3ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (14ms)
-	RebuildCommonClasses (22ms)
-	RebuildNativeTypeToScriptingClass (8ms)
-	initialDomainReloadingComplete (18ms)
-	LoadAllAssembliesAndSetupDomain (302ms)
-		LoadAssemblies (181ms)
+		CreateAndSetChildDomain (15ms)
+	RebuildCommonClasses (24ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (22ms)
+	LoadAllAssembliesAndSetupDomain (268ms)
+		LoadAssemblies (159ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (153ms)
-			TypeCache.Refresh (119ms)
-				TypeCache.ScanAssembly (108ms)
-			BuildScriptInfoCaches (25ms)
-			ResolveRequiredComponents (7ms)
-	FinalizeReload (415ms)
+		AnalyzeDomain (140ms)
+			TypeCache.Refresh (109ms)
+				TypeCache.ScanAssembly (98ms)
+			BuildScriptInfoCaches (23ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (428ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (314ms)
+		SetupLoadedEditorAssemblies (326ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (2ms)
 			SetLoadedEditorAssemblies (3ms)
 			BeforeProcessingInitializeOnLoad (84ms)
-			ProcessInitializeOnLoadAttributes (200ms)
-			ProcessInitializeOnLoadMethodAttributes (24ms)
+			ProcessInitializeOnLoadAttributes (211ms)
+			ProcessInitializeOnLoadMethodAttributes (26ms)
 			AfterProcessingInitializeOnLoad (1ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (2ms)
+		AwakeInstancesAfterBackupRestoration (3ms)
 WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
 WARNING: Shader Did you use #pragma only_renderers and omit this platform?
 WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
@@ -222,19 +222,18 @@ WARNING: Shader Did you use #pragma only_renderers and omit this platform?
 WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
 Launching external process: /Applications/Unity/Hub/Editor/6000.2.8f1/Unity.app/Contents/Tools/UnityShaderCompiler
 Launched and connected shader compiler UnityShaderCompiler after 0.03 seconds
-Refreshing native plugins compatible for Editor in 0.32 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.40 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 15 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6112 unused Assets / (3.9 MB). Loaded Objects now: 6802.
-Memory consumption went from 139.7 MB to 135.8 MB.
-Total: 5.629792 ms (FindLiveObjects: 0.326791 ms CreateObjectMapping: 0.204667 ms MarkObjects: 3.788583 ms  DeleteObjects: 1.309250 ms)
+Unloading 6112 unused Assets / (3.8 MB). Loaded Objects now: 6802.
+Memory consumption went from 139.3 MB to 135.4 MB.
+Total: 5.662792 ms (FindLiveObjects: 0.689083 ms CreateObjectMapping: 0.220917 ms MarkObjects: 3.216750 ms  DeleteObjects: 1.535375 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 191333.862043 seconds.
-  path: Assets/security-guard-rigged-3d-model
-  artifactKey: Guid(82a45013f19f84da690984770e55f123) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/security-guard-rigged-3d-model using Guid(82a45013f19f84da690984770e55f123) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b46b93727c1c0e5869795e693d8f48fa') in 0.002814584 seconds
+  Time since last request: 191991.196185 seconds.
+  path: Assets/Scenes/Demo.unity
+  artifactKey: Guid(d33ad11f679234313bfb27b3e430ca9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Demo.unity using Guid(d33ad11f679234313bfb27b3e430ca9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd3012d547847574318e00e75c855e1b3') in 0.00200775 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 
-AssetImportWorkerClient::OnTransportError - code=2 error=End of file
