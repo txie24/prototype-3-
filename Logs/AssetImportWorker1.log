@@ -237,3 +237,4 @@ Received Import Request.
 Start importing Assets/security-guard-rigged-3d-model using Guid(82a45013f19f84da690984770e55f123) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b46b93727c1c0e5869795e693d8f48fa') in 0.002814584 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file

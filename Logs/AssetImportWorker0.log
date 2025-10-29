@@ -269,3 +269,4 @@ Received Import Request.
 Start importing Assets/security-guard-rigged-3d-model/textures/RGB_9192397b71444a7bb139dbd7dc7ac83f_SecurityGuard_Body_D.jpeg using Guid(6d1c5dd3936524314bd42989b601efd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '80f9e1a827b0a95d05981528bde8d96e') in 0.005399792 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
