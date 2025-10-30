@@ -8,10 +8,10 @@ public class Rotation_Behaviour : MonoBehaviour
     public float rotate_time = 0.75f;  
 
     [Header("rng delays (seconds)")]
-    public float cooldown_min = 3f;     
-    public float cooldown_max = 5f;
-    public float away_min = 3f;         
-    public float away_max = 5f;
+    public float cooldown_min = 1f;     
+    public float cooldown_max = 3f;
+    public float away_min = 1f;         
+    public float away_max = 3f;
 
     [Header("target")]
     public Transform player;            
