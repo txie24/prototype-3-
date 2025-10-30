@@ -3,43 +3,101 @@ using UnityEngine;
 
 public class Rotation_Behaviour : MonoBehaviour
 {
+    [Header("turning")]
     public bool can_rotate = true;
-    public float rotate_time = 3f;
-    public float rotate_cooldown = 5f;
-    public float rotate_amount_euler = 90f;
+    public float rotate_time = 0.75f;  
 
-    private float current_time = 0f;
-    private Vector3 rotation_start_cache;
-    private Vector3 rotation_end_cache;
+    [Header("rng delays (seconds)")]
+    public float cooldown_min = 3f;     
+    public float cooldown_max = 5f;
+    public float away_min = 3f;         
+    public float away_max = 5f;
 
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
+    [Header("target")]
+    public Transform player;            
+
+    Coroutine routine;
+
     void Start()
     {
-        rotation_start_cache = transform.rotation.eulerAngles;
+        if (player == null)
+        {
+            GameObject p = GameObject.FindGameObjectWithTag("Player");
+            if (p) player = p.transform;
+        }
+        if (routine == null) routine = StartCoroutine(RotateRoutine());
     }
 
-    // Update is called once per frame
-    void Update()
+    IEnumerator RotateRoutine()
     {
-        if (can_rotate)
+        while (true)
         {
-            StartCoroutine(Rotate(rotate_time+rotate_cooldown));
-        }
-        else
-        {
-            transform.eulerAngles = Vector3.Lerp(rotation_start_cache, rotation_end_cache, (current_time / rotate_time));
-            current_time += Time.deltaTime;
+            yield return WaitWhileCanRotate(Random.Range(cooldown_min, cooldown_max));
+
+
+            yield return RotateYawToward(() =>
+            {
+                if (!player) return transform.forward; 
+                Vector3 dir = player.position - transform.position;
+                dir.y = 0f;
+                return dir.sqrMagnitude > 0.0001f ? dir.normalized : transform.forward;
+            });
+
+            yield return WaitWhileCanRotate(Random.Range(away_min, away_max));
+
+            yield return RotateYawToward(() =>
+            {
+                if (!player) return -transform.forward; 
+                Vector3 dir = transform.position - player.position; 
+                dir.y = 0f;
+                return dir.sqrMagnitude > 0.0001f ? dir.normalized : -transform.forward;
+            });
         }
     }
-    
-    IEnumerator Rotate(float time)
+
+    IEnumerator RotateYawToward(System.Func<Vector3> getFlatDir)
     {
-        can_rotate = false;
-        rotation_end_cache = new Vector3(transform.eulerAngles.x, transform.eulerAngles.y + rotate_amount_euler, transform.eulerAngles.z);
-        yield return new WaitForSeconds(time);
-        rotation_start_cache = transform.rotation.eulerAngles;
-        can_rotate = true;
-        current_time = 0f;
-        yield return null;
+        if (!can_rotate) yield break;
+
+        Quaternion start = transform.rotation;
+
+        Vector3 d0 = getFlatDir();
+        Quaternion target = Quaternion.LookRotation(d0, Vector3.up);
+
+        float t = 0f;
+        while (t < rotate_time)
+        {
+            if (!can_rotate) yield break;
+
+            t += Time.deltaTime;
+            float u = Mathf.Clamp01(t / rotate_time);
+
+            Vector3 liveDir = getFlatDir();
+            if (liveDir.sqrMagnitude > 0.0001f)
+                target = Quaternion.LookRotation(liveDir, Vector3.up);
+
+            Vector3 eStart = start.eulerAngles;
+            Vector3 eTarget = target.eulerAngles;
+            Quaternion startYaw = Quaternion.Euler(0f, eStart.y, 0f);
+            Quaternion targetYaw = Quaternion.Euler(0f, eTarget.y, 0f);
+
+            transform.rotation = Quaternion.Slerp(startYaw, targetYaw, u);
+            yield return null;
+        }
+
+        Vector3 e = target.eulerAngles;
+        transform.rotation = Quaternion.Euler(0f, e.y, 0f);
     }
+
+    IEnumerator WaitWhileCanRotate(float duration)
+    {
+        float t = 0f;
+        while (t < duration)
+        {
+            if (can_rotate) t += Time.deltaTime;
+            yield return null;
+        }
+    }
+
+    public void SetCanRotate(bool value) => can_rotate = value;
 }
