@@ -127,6 +127,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::audio_source_generic
   broadcast_goal: {fileID: 0}
   noise_level: 1
+  noise_duration: 0.25
   make_noise:
     m_PersistentCalls:
       m_Calls:

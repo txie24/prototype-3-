@@ -1,3 +1,5 @@
+using System.Collections;
+using Unity.Mathematics;
 using UnityEngine;
 
 public class noise_player_manager : MonoBehaviour
@@ -26,8 +28,22 @@ public class noise_player_manager : MonoBehaviour
         audio_source_generic broadcaster = collision.transform.GetComponent<audio_source_generic>();
         if (broadcaster != null)
         {
-            noise_level += broadcaster.noise_level;
+            StartCoroutine(SineNoiseEvaluation(broadcaster.noise_level, broadcaster.noise_duration));
             broadcaster.make_noise.Invoke();
         }
+    }
+
+    IEnumerator SineNoiseEvaluation(float scalar, float duration)
+    {
+        float timeElapsed = 0f;
+        while (timeElapsed < duration)
+        {
+            noise_level = Mathf.Sin(timeElapsed * (Mathf.PI / duration)) * scalar;
+            timeElapsed += Time.deltaTime;
+            yield return new WaitForSeconds(Time.deltaTime);
+        }
+        noise_level = 0f;
+
+        yield return null;
     }
 }
